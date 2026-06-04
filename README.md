@@ -28,6 +28,16 @@
 
 📂 [market-insight-ai](https://github.com/ryuseiinomoto/market-insight-ai)
 
+### 🎙 YouTube Audio Reviewer — 動画公開前の音声チェックツール（開発中）
+友人からの依頼で、YouTube動画の公開前に **音声と文字起こしから「編集候補」と「公開リスク」を自動で洗い出す** ツールを開発しています。無音・長い間・音量スパイク、フィラー・言い直し・個人情報の混入などをマーカー化し、編集メモやタイムラインとして出力します。
+
+- LLM処理に **Langfuse** を組み込み、コスト・トークンのトレース管理を実装
+- トレースに乗るセンシティブな音声・文字起こしの **自動マスキング** に対応
+
+`Python` `Langfuse` `LLM` `ffmpeg`
+
+📂 [youtube-audio-reviewer](https://github.com/lll-kkk-ryuya/youtube-audio-reviewer)
+
 ## 🛠 Tech Stack
 - **Languages**: TypeScript / Python / JavaScript
 - **Frontend**: Next.js (App Router) / React / Tailwind CSS / Recharts / Framer Motion
